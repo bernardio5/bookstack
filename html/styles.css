@@ -1,6 +1,6 @@
 @charset "UTF-8";
-body {  
-   font-family: Arial, Helvetica, sans-serif;
+body {
+	font: 100%/1.4 font-family: Georgia, serif;
 	background: #ffffff;
 	margin: 0;
 	padding: 0;
@@ -19,6 +19,16 @@ a img {	border: none; }
 a:link {	color: #42413C;  	text-decoration: underline;  	}
 a:visited {	color: #6E6C64;		text-decoration: underline;		}
 a:hover, a:active, a:focus { 	text-decoration: none;			}
+
+button {
+   //border: none;
+   border: 2px solid #888888; 
+   color: #000000;
+   background-color: #ffffff;
+   padding: 2px 8px;
+   border-radius: 25%;
+}
+
 
 /* frame around all items */
 .container {	
@@ -62,36 +72,6 @@ a:hover, a:active, a:focus { 	text-decoration: none;			}
    color: #000000;
 }
 
-/* these are used in the prints page; allows a dowuble-row of icons */
-
-.right2 {
-    width: 320px;
-   height: 96px;
-   margin: 16px 32px 16px 32px;
-   float: right;
-}
-
-.left2 {
-	margin: 0% 0% 0% 0%;
-   width: 256px;
-   height: 96px;
-   float: left;
-}
-
-
-.cardRight {
-    width: 510px;
-   height: 512px;
-   margin: 0px 0px 0px 0px;
-   float: right;
-}
-
-.cardLeft {
-	margin: 0% 0% 0% 0%;
-   width: 128px;
-   height: 512px;
-   float: left;
-}
 
 .clear {
    height: 0;
@@ -103,21 +83,9 @@ a:hover, a:active, a:focus { 	text-decoration: none;			}
 }
 
 
-
-.container2 {
-	float: center;
-	width: 800px;	
-	margin:2px 2px 2px 2px; 
-	background: #ffffff;	
+.vol {
+   margin: 20px 40px;
 }
-
-.rowbox2 {
-	width: 0px;	
-	margin:4px 2px 4px 2px; 
-	background: #ffffff;	
-}
-
-
 
 
 
